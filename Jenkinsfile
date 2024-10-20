@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Git') {
             steps {
-                git branch: 'MohamedKhalilMzali-5NIDS1-G1', url: 'https://github.com/MohamedKhalil-Mzali/5NIDS1-G1-ProjetDevOps2.git'
+                git branch: 'main', url: https://github.com/rayenebr/DevOps_5DS5.git
             }
         }
         stage('Maven') {
